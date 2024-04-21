@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 1px solid #ccc; /* Border color can be adjusted */
+    border-radius: 10px; /* Adjust the border radius for rounded corners */
+    box-shadow: 5px 10px #888888; /* Adjust the shadow properties */
+    background-color: #fff;
+    margin-top: 5%;  
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ff59;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

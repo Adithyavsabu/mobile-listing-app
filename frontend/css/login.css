@@ -1,0 +1,67 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the login container */
+.login-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+    height: 50%;
+}
+
+/* Style the form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style form group (label + input) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the error message */
+#error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+}
